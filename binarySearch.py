@@ -1,4 +1,4 @@
-def binary_search(list, item):
+def binary_search(list: list[int], item: int):
     low = 0
     high = len(list) - 1  # array length
     while low <= high:
@@ -16,4 +16,5 @@ def binary_search(list, item):
 
 my_array = [5, 10, 15, 20, 25, 41, 43, 44, 50, 60, 80]
 
-print(binary_search(my_array, 80))
+
+print(binary_search(my_array, 5))
